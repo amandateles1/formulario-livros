@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>livro</title>
+</head>
+<body>
+    <h1>Formulário para Cadastrar um Livro</h1>
+    <form>
+        <div>
+            <label for="Título"> Título di Livro</label>
+            <input type="text" id="título" class="input-padrao" required>
+
+            <label for="Autor(a)"> Autor(a)</label>
+            <input type="text" id="Autor(a)"  class="input-padrao" required>
+
+            <label for="Editora"> Editora</label>
+            <input type="text" id="Editora" class="input-padrao" required>
+
+            <label for="Personagem principal"> Personagem principal</label>
+            <input type="text" id="Personagem principal"  class="input-padrao" required>
+
+            <label for="mensagem"> Observações</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+        <fieldset>
+
+            <legend>Qual seu gênero favorito?</legend>
+            <label for="radio-romance"> <input type="radio" name="contato" value="romance" id="radio-romance">Romance</label>
+            <label for="radio-suspence"> <input type="radio" name="contato" value="suspence" id="radio-suspence">Suspence</label>
+            <label for="radio-ficção"> <input type="radio" name="contato" value="ficção" id="radio-ficção">Ficção</label>
+            <label for="radio-terror"> <input type="radio" name="contato" value="terror" id="radio-terror">Terror</label>
+            <label for="radio-comédia"> <input type="radio" name="contato" value="comédia" id="radio-comédia">Comédia</label>
+
+        </fieldset>    
+
+        <fieldset>
+
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+        </fieldset>
+
+        <label class="checkbox"> <input type="checkbox" checked> Gostaria de Receber nossas novidades por email? </label>
+        <input type="submit" value="Enviar Formulário" class="Enviar">
+    </div>
+    </form>
+    <footer>
+        <p class="copyright">&copy; Copyright Formulário-2024</p>
+    </footer>
+
+
+</body>
+</html>
